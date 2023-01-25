@@ -9,8 +9,8 @@ public class PasswordGenerator {
 		String Surname;
 		String Color;
 		int YearBirth;
-		byte MonthBirth;
-		byte DayBirth;
+		int MonthBirth;
+		int DayBirth;
 		
 		Scanner s=new Scanner(System.in);
 		
@@ -23,9 +23,9 @@ public class PasswordGenerator {
 		System.out.print("Inserisci l'anno di nascita: ");
 		YearBirth=s.nextInt () ;
 		System.out.print("Inserisci il mese di nascita come numero: ");
-		MonthBirth=s.nextByte () ;
+		MonthBirth=s.nextInt () ;
 		System.out.print("Inserisci il giorno di nascita come numero: ");
-		DayBirth=s.nextByte () ;
+		DayBirth=s.nextInt () ;
 		
 		System.out.println("Ecco la tua password ultrasicura: "+Name+Surname+Color+(YearBirth+MonthBirth+DayBirth));
 		
