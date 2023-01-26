@@ -14,11 +14,11 @@ public class CalcolaBiglietto {
 		userKm = s.nextInt();
 
 		if (userAge < 19)
-			System.out.println("Il prezzo del tuo biglietto è: " + (0.21 * userKm * 0.8) + "€");
+			System.out.println("Il prezzo del tuo biglietto è: " + (0.21 * userKm * 0.8) + " €");
 		else if (userAge > 64)
-			System.out.println("Il prezzo del tuo biglietto è: " + (0.21 * userKm * 0.6) + "€");
+			System.out.println("Il prezzo del tuo biglietto è: " + (0.21 * userKm * 0.6) + " €");
 		else
-			System.out.println("Il prezzo del tuo biglietto è: " + (0.21 * userKm) + "€");
+			System.out.println("Il prezzo del tuo biglietto è: " + (0.21 * userKm) + " €");
 
 		s.close();
 	}
