@@ -11,8 +11,11 @@ public class CheckGuest {
 		boolean kickout = true;
 
 		Scanner s = new Scanner(System.in);
+
 		System.out.println("Buonasera, per favore mi digiti il suo nome completo per entrare: ");
 		userInput = s.nextLine();
+
+		s.close();
 
 		for (int i = 0; i < (guests.length); i++)
 
